@@ -22,6 +22,7 @@ main(int argc, char *argv[])
         wait();
         printf(1, "** trap started **\n"); 
         *value=5; 
+      printf(1, "this line will not be printed\n");
         exit(); 
   } 
 
